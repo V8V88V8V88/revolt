@@ -1,0 +1,35 @@
+@import "@fontsource/inter/300";
+@import "@fontsource/inter/400";
+@import "@fontsource/inter/500";
+@import "@fontsource/inter/600";
+@import "@fontsource/inter/700";
+@import "@fontsource/inter/800";
+@import "@fontsource/jetbrains-mono";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #191919;
+}
+
+#root {
+  position: fixed;
+  top: env(safe-area-inset-top);
+  left: env(safe-area-inset-left);
+  right: env(safe-area-inset-right);
+  bottom: env(safe-area-inset-bottom);
+}
+
+a {
+  cursor: pointer;
+}
+
+a,
+a:link,
+a:visited,
+a:hover {
+  color: inherit;
+}

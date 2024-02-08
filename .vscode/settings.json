@@ -1,0 +1,12 @@
+{
+  "editor.formatOnSave": true,
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/pnpm-lock.yaml": true,
+    "**/tsconfig.json": false
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "nixEnvSelector.nixFile": "${workspaceRoot}/default.nix"
+}
